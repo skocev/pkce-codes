@@ -3,6 +3,11 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 
+/**
+ * https://www.rfc-editor.org/rfc/rfc6749 The OAuth 2.0 Authorization Framework
+ * https://www.rfc-editor.org/rfc/rfc7636 Proof Key for Code Exchange(PKCE) by OAuth Public Clients
+ * https://www.keycloak.org/ Open Source Identity and Access Management
+ */
 public class Main {
     // [A-Z] / [a-z] / [0-9] / "-" / "." / "_" / "~"
     private static final String[] POOL = new String[] {
